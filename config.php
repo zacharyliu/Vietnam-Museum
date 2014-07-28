@@ -24,10 +24,10 @@ $postDelimiter = '';
 $dbsecs[] = '';
 
 // Database Login Information
-$hostname = 'jmooneyham.serveftp.net';
-$username = 'tsa';
-$password = 'tsamysql';
-$dbname =	'tsa';
+$hostname = '';
+$username = '';
+$password = '';
+$dbname =	'';
 
 ## End user editable settings
 

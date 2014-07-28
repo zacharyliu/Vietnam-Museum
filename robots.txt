@@ -2,4 +2,3 @@ User-agent: *
 Disallow: /content/
 Disallow: /css/
 Disallow: /js/
-Disallow: /2011/
