@@ -1,0 +1,54 @@
+<xml>
+    <title>Welcome to the Museum</title>
+    <summary>Information about the museum and the time period.</summary>
+    <bg>hero1.jpg</bg>
+    <topics>
+        <topic>
+            <title>Background</title>
+            <bg>museum.jpg</bg>
+            <section>
+                <title>Introduction</title>
+                <shortname>Intro</shortname>
+                <content>
+                    <p>The Zachary Liu-Sreela Kodali Vietnam Memorial Museum captures the mayhem and confusion of the 1960s and 1970s. The Vietnam War introduced the United States to a form of combat and realm of foreign policy unlike any other: the actions taken during the war have laid several precedents and redefined American warfare. This museum truly brings this chaotic time period to life, featuring authentic photographs, genuine TV broadcasts from the time, and poetry and eyewitness accounts written by the soldiers themselves. The museum not only honors the people who fought and have fallen, but it accurately portrays all aspects of the war through ten, selectively chosen artifacts. Come explore the museum to immerse yourself in the 1960s and witness the United State's quest of containment.</p>
+                </content>
+            </section>
+        </topic>
+        <topic>
+            <title>Quotes</title>
+            <bg>poem.jpg</bg>
+            <section>
+                <title>Quotes from <i>Voices from Vietnam</i></title>
+                <content>
+                    <p>"...There was this kid, maybe two or three years old. He hadn't learned to walk too well yet but he was running down the street. And a Marine walked over to talk to the kid, touched him, and they both blew up. They didn't move. It was not as if they stepped on something. The kid had to have the explosive around him. It was a known tactic that they wrapped stuff around kids. The Marine... was trying to be friendly." - Archie "Joe" Biggers, U.S. Marines</p>
+                    <p>"By God, they sent us over here to kill Communists and that's what we're doing." - Harold Moore, Jr., U.S. Army</p>
+                    <p>"In Vietnam, the only measure of victory was one of the most hideous, morally corrupting ideas ever conceived by the military mind - the body count." - Phillip Caputo, U.S. Marines</p>
+                </content>
+            </section>
+        </topic>
+        <topic>
+            <title>Works Cited</title>
+            <bg>workscited.jpg</bg>
+            <section>
+                <title>Works Cited List</title>
+                <shortname>Citations</shortname>
+                <content>
+                    <citationlist>
+                        <citation>http://upload.wikimedia.org/wikipedia/commons/f/f1/Cholon_after_Tet_Offensive_operations_1968.jpg</citation>
+                        <citation>http://en.wikipedia.org/wiki/Tet_Offensive</citation>
+                        <citation>http://www.youtube.com/watch?v=RwUGSYDKUxU</citation>
+                        <citation>http://www.songfacts.com/detail.php?id=1094</citation>
+                        <citation>http://www.shmoop.com/john-lennon-imagine/</citation>
+                        <citation>http://blog.madame.lefigaro.fr/stehli/4-%20jeune%20fille%20couleur.jpg</citation>
+                        <citation>http://www.smithsonianmag.com/history-archaeology/Flower_Child.html</citation>
+                        <citation>http://blog.lib.uiowa.edu/drp/files/2012/01/DI-1970-5-5.jpg		</citation>
+                        <citation>http://graphics8.nytimes.com/images/section/learning/general/onthisday/big/0123_big.gif</citation>
+                        <citation>http://www.lzsally.com/popage.html</citation>
+                        <citation>http://thestar.blogs.com/.a/6a00d8341bf8f353ef0133ed0e8269970b-800wi</citation>
+                        <citation>http://thestar.blogs.com/.a/6a00d8341bf8f353ef0133ed0e88aa970b-800wi</citation>
+                    </citationlist>
+                </content>
+            </section>
+        </topic>
+    </topics>
+</xml>

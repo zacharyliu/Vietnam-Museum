@@ -1,0 +1,181 @@
+<xml>
+    <title>Artifacts of the Museum</title>
+    <summary>Explore the history of the Vietnam War through our many exhibits.</summary>
+    <bg>hero2.jpg</bg>
+    <topics>
+        <topic>
+            <title>Photo of the City of Cholon</title>
+            <bg>cholon.jpg</bg>
+            <section>
+                <title>Photo of city of Cholon, showing destruction after the Tet Offensive, 1968</title>
+                <content>
+                    <image>
+                        <source>cholon.jpg</source>
+                    </image>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>This photo was taken in the city of Cholon soon after the Tet Offensive swept a wave of destruction through Vietnam in early 1968. Civilians can be seen in the photo digging through the ruins of their homes and possessions. The destruction seen here was widespread throughout Vietnam. The Tet Offensive saw tens of thousands of North Vietnamese soldiers stream through major cities, causing widespread destruction. This image is only a glance into the horror of the war. </p>
+                </content>
+            </section>
+        </topic>
+        <topic>
+            <title>"Imagine"</title>
+            <bg>imagine.png</bg>
+            <section>
+                <title>Song: "Imagine" by John Lennon</title>
+                <content>
+                    <video><id>yRhq-yO1KN8</id></video>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>John Lennon penned this song in 1971, soon after the boistrous civil rights struggles of the ‘60s and in the midst of the Vietnam War. Times were changing, and the atmosphere in the nation was tense. Divisions were causing strife, whether racial divisions or war/peace divisions. Lennon wrote the song to ask the listener to “imagine” a place where there were no divisions to divide people. He asks to shed items such as religion and possessions to create a sense of unity and harmony. In the difficult and tumultuous times of the ‘60s and ‘70s, such a message was well-needed. </p>
+                </content>
+            </section>
+        </topic>
+        <topic>
+            <title>Jan Rose Kasmir</title>
+            <bg>kasmir.jpg</bg>
+            <section>
+                <title>Photo of Vietnam War protester Jan Rose Kasmir placing a flower on the gun of a soldier</title>
+                <content>
+                    <image>
+                        <source>kasmir.jpg</source>
+                    </image>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>On October 27, 1967, thousands of anti-war protesters converged on the nation’s capitol to protest the nation’s involvement in the Vietnam War. Such a demonstration was not uncommon at the time. Across the nation, anti-war sentiment was spreading, fueled by the students, hippies, and activists behind the movement. But during this protest, known as the March on the Pentagon, the protesters sought to halt the war effort outright for a day. Protesters marched in the streets mere inches from the wielded rifles of military police. One girl in particular was trying to catch the soldiers’ attention, trying to talk with them, trying to offer peace. She, Jan Rose Kasmir, was only 17, but shared the same devotion to peace as those marching around her. In this photo, she is seen placing a flower on the gun of a soldier as a plea for peace. The image demonstrates how the protesters and defenders clashed in their beliefs, and how the hope for peace was met with bitter opposition from the government. </p>
+                </content>
+            </section>
+        </topic>
+        <topic>
+            <title>Kent State Massacre</title>
+            <bg>kent.jpg</bg>
+            <section>
+                <title>Photo of Kent State Massacre, 1970</title>
+                <content>
+                    <image>
+                        <source>kent.jpg</source>
+                    </image>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>On May 4th, 1970, Ohio National Guardsmen fired 67 rounds within 13 seconds into a crowd of young protesters and students at Kent State University. Four people were killed and nine were injured - all victims were either 19 or 20 years old. These young victims, some merely students walking to class, were attacked not while at war but in the safety of their university by their own government. Pictures of the dead and injured, such as the one in this exhibit, were distributed in newspapers, articles, and television broadcasts. Such media coverage spawned further resentment towards the war and justified the protester’s cause. Never before had such an atrocity occurred and the American people acted immediately - hundreds of universities were closed as students stood together as one to protest the Cambodian Campaign. This iconic photo, taken by John Filo, of 14 year old Mary Ann Vecchio reacting to the death of Jeffrey Miller portrayed the protesters as martyrs and immortalized this event. This photograph went on to win the Pulitzer Prize. </p>
+				</content>
+            </section>
+        </topic>
+        <topic>
+            <title>New York Times</title>
+            <bg>nyt.gif</bg>
+			<section>
+				<title>New York Times headline at the end of the war, 1973</title>
+                <content>
+                    <image>
+                        <source>nyt.gif</source>
+                    </image>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+				<content>
+					<p>The headline in the New York Times documents the end of the Vietnam War and the end of an epoch of horror. After years of a stagnant war and losing thousands of Americans, the United States finally brought home its troops to prevent further loss. The sense of relief the nation was unimaginable: young men who would have fought for many more years could return home, meet their families, marry their sweethearts, and live their life. The newspaper article, naturally, conveys the excitement and happiness of POWs returning home and a cease in fighting. The headline demonstrates that the end of the war was a victory of the people, those who encouraged the 1960s anti-war and peace feelings. </p>
+				</content>
+            </section>
+		</topic>
+        <topic>
+            <title>"Brothers"</title>
+            <bg>poem.jpg</bg>
+            <section>
+                <title>Poem "Brothers" by Soldier Pete "Doc" Fraser</title>
+                <content>
+                    <quote>
+                        <p><b>Brothers</b></p>
+                        <p>When I first got to Nam</p>
+                        <p>you were black and I was white.</p>
+                        <p>Then sweating together</p>
+                        <p>through the boonies and in firefights</p>
+                        <p>we became brothers.</p>
+                        <p>Everything we did depended on each other.</p>
+                        <p>Without speaking we communicated.</p>
+                        <p>I knew if I went left, you'd go right</p>
+                        <p>and be there to cover me in a firefight.</p>
+                        <p>I never trusted another person as I trusted you.</p>
+                        <p>That is why I shut the door to my soul</p>
+                        <p>when you got hit.</p>
+                        <p>A part of me felt the pain,</p>
+                        <p>a part of me went with you on the dustoff,</p>
+                        <p>and a part of me died with you,</p>
+                        <p>and a part of me is still with you</p>
+                        <p>just as a part of you is still with me</p>
+                    </quote>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>This poem was written by American Soldier Pete “Doc” Fraser and his experience at Vietnam. The poem paints a picture of young American boys, fighting a war they knew little about. Even in this foreign land, they found kindredship and worked together to serve their nation. However, war spares no one and despite the soldiers’ diligence and commitment, he is killed. The poem not only shows the pain of losing someone close but demonstrates that the war is leaving a permanent wound in the hearts of the American people. Thousands of American families lost loved ones during the course of the Vietnam War and this poem serves as a poignant tribute to those who have served and fallen.</p>
+				</content>
+            </section>
+        </topic>    
+        <topic>
+            <title>Paratroopers</title>
+            <bg>paratroopers.jpg</bg>
+            <section>
+                <title>Paratroopers of the U.S. 2nd Batallion</title>
+                <content>
+                    <image>
+                        <source>paratroopers.jpg</source>
+                    </image>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>This photograph pictures the U.S. 2nd Battalion, 173rd Airborne Brigade crossing a river in the rain in the jungle area of Ben Cat, South Vietnam on Sept. 25, 1965. The photo depicts the never-ending struggles soldiers experienced in order to preserve national security and reduce communism in our world. Vietnam is a hot and humid nation and was notorious for its monsoons and water-borne disease. Unlike North Vietnam, the United States did not have home territory advantage and soldiers were thrust into adverse conditions and a  foreign environment. Soldiers faced of challenges, in addition to their enemy - the constant humidity and perpetual rain contributed to a wet and dangerous battleground. This image really shows the horrid condition soldiers were subject to and the deep river they had to cross. This photo emphasizes the high price these men paid for the war.</p>
+                </content>
+            </section>
+        </topic>
+        <topic>
+            <title>Television</title>
+            <bg>tv.png</bg>
+            <section>
+                <title>Television Broadcast Special of Vietnam War, issued by the U.S. government, 1967</title>
+                <content>
+                    <video><id>oePgz_ocEc0</id></video>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>The television broadcast special by CBS News introduced a new perspective of the war. With real footage and interviews of soldiers in the Con Thien outpost, the documentary portrayed the Americans, not as winning, but up against a formidable foe who was not willing to compromise. American soldiers described the ordeal as frightening, with death and the Northern Vietnamese at their toes. Only 2 miles away from the DMZ, the soldiers were facing unusually high casualties. Television broadcasts, such as this one, added fuel to the anti-war fire: the young soldiers were visibly traumatized and it was apparent the Americans were making no significant progress.</p>
+                </content>
+            </section>
+        </topic>
+        <topic>
+            <title>Eyewitness Account</title>
+            <bg>binoculars.png</bg>
+            <section>
+                <title>Eyewitness Account by Soldier Jim</title>
+                <content>
+                    <quote><p>"When I saw news reels of the boxes and body bags piling up, it still had little effect on me until friends of mine were inside these boxes. Kids I used to play baseball with, hide and go seek with, music with, and went to school with were dead."</p>
+                    <p>"I believed in the United States, I believed there had to be a reason for us being over there, but for the life of me I did not know why."</p></quote>
+                </content>
+            </section>
+            <section>
+                <title>Information</title>
+                <content>
+                    <p>The first hand account written by a soldier, identified only as Jim, conveys the genuine woe and confusion young Americans underwent. Thousands of American boys served in either the United States Army, Marine Corps, Navy, Coast Guard, and Air Force and many gave their lives for their nation. The Vietnam War was a proactive war: the United States waged the war as a preventive measure to stop communism. The war, however, was not a direct attack on the United States and was therefore an addition, arguably unnecessary war. The account shows the confusion soldiers had: they were aware they were serving their country and proud to do so, but that many American people did not see a valid reason for war. This sentiment of doubt and confusion took off within the United States and sparked an anti-war movement.</p>
+                </content>
+            </section>
+        </topic>
+    </topics>
+</xml>

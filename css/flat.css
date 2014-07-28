@@ -1,0 +1,20 @@
+/* Flat layout, without need for pop-up reader to view content */
+#main .tile {
+    width: 96%;
+}
+#main .tile_image_wrapper {
+    display: none;
+}
+#main a.tile_inner {
+    border-bottom: 1px solid #555;
+}
+#main .tile_inner h3 {
+    line-height: 40px;
+    font-size: 26px;
+}
+#main .tile_inner p {
+    margin-bottom: 0;
+}
+#main .content {
+    display: block;
+}

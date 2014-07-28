@@ -1,0 +1,435 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", sans-serif;
+	background-color: black;
+	background: url("../images/dark_mosaic.png") fixed;
+	font-size: 11pt;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	padding: 0;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+#navbar {
+	width: 100%;
+	height: 50px;
+	background-color: #444;
+	background-image: url(../images/triangles.png);
+	text-align: center;
+	z-index: 2000;
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	position: fixed;
+	text-shadow: -1px -1px 0 #000;
+}
+#navbar_inner {
+	position: relative;
+	z-index: 2000;
+	min-width: 800px;
+}
+#navbar h1 {
+	display: inline-block;
+	color: #FFF;
+	font-size: 25px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+#navbar ul li {
+	list-style-type: none;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	display: inline-block;
+}
+#navbar ul li a {
+	color: #EEE;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	border-bottom: 1px dashed #999;
+	/* text-shadow: 0px -1px 0px #AAA; */
+	line-height: 50px;
+}
+#navbar ul  li .current {
+	color: #C03;
+}
+
+#content_wrapper {
+	width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 180px;
+}
+@media all and (min-width: 1030px) {
+	body {
+		overflow-x: hidden;
+	}
+}
+#column_left {
+	float: left;
+	width: 180px;
+	position: fixed;
+	top: 50px;
+	bottom: 0px;
+	padding-bottom: 15px;
+}
+#column_middle {
+	padding-top: 55px;
+	margin-left: 180px;
+	background-color: white;
+	/*box-shadow: 0 0 80px #555;*/
+	overflow: hidden;
+	z-index: 20;
+	position: relative;
+}
+
+#column_middle_shadow {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	width: 850px;
+	left: 50%;
+	margin-left: -425px;
+	/*box-shadow: 0 0 80px rgba(0,0,0,0.5); slow */
+}
+
+#navbar_float {
+	background-color: white;
+	position: relative;
+}
+#navbar_float ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#navbar_float li {
+	list-style-type: none;
+	position: absolute;
+	display: block;
+	margin: 0;
+	/*-webkit-transition: top 0.05s linear;*/
+	/*-moz-transition: top 0.05s linear;*/
+}
+#navbar_float li a {
+	box-shadow: 0 0 8px #222;
+}
+
+/* Topic links */
+#navbar_float > ul > li {
+	z-index: 10;
+}
+#navbar_float > ul > li > a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11pt;
+	width: 130px;
+	padding: 5px 10px 5px 10px;
+	background-color: #555;
+	text-align: right;
+	display: block;
+	position: relative;
+	z-index: 10;
+	border-top: 1px solid #555;
+}
+
+/* Section links */
+#navbar_float > ul > li > ul {
+	z-index: 8;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 8;
+}
+#navbar_float > ul > li > ul > li {
+	z-index: 8;
+}
+#navbar_float > ul > li > ul > li > a {
+	text-align: right;
+	display: block;
+	font-size: 10pt;
+	width: 120px;
+	padding: 5px 10px 5px 10px;
+	background-color: #333;
+	color: white;
+	text-decoration: none;
+	font-style: italic;
+	margin-left: 10px;
+	z-index: 8;
+}
+
+#navbar_fixed {
+	margin-top: 10px;
+	overflow-y: auto;
+	height: 100%;
+}
+#navbar_fixed li, #navbar_fixed ul {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	/*-webkit-transition: top 0.05s linear;*/
+	/*-moz-transition: top 0.05s linear;*/
+}
+#navbar_fixed > ul > li {
+	margin-bottom: 5px;
+}
+#navbar_fixed > ul > li > a {
+	text-decoration: none;
+	color: white;
+	font-size: 12pt;
+	padding: 2px 6px 2px 6px;
+	display: block;
+	background: url("../images/crossed_stripes.png");
+}
+#navbar_fixed > ul > li > a.active, #navbar_fixed > ul > li > a:hover {
+	background: none;
+	background-color: #555;
+}
+#navbar_fixed > ul > li > ul {
+	z-index: 8;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 8;
+}
+#navbar_fixed > ul > li > ul > li > a {
+	color: white;
+	padding: 3px 7px 3px 10px;
+	display: block;
+	text-decoration: none;
+	font-size: 10pt;
+	border-bottom: 1px solid #333;
+	background-color: rgba(50, 50, 50, 0.3);
+}
+#navbar_fixed > ul > li > ul > li > a.active, #navbar_fixed > ul > li > ul > li > a:hover {
+	background-color: #555;
+}
+
+
+.topic {
+	padding-bottom: 220px;
+	background: url("../images/spacer.png") bottom center no-repeat;
+	margin-bottom: 30px;
+}
+.topic:last-of-type {
+	padding-bottom: 5px;
+	background: none;
+}
+.topic h2 {
+	text-transform: uppercase;
+	font-size: 16pt;
+	text-align: center;
+	letter-spacing: 1px;
+	background-color: #DDD;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+	z-index: 15;
+	width: 850px;
+	height: 27px;
+	text-shadow: 1px 1px 1px #FFF;
+	box-shadow: 0 0 12px #777;
+}
+
+.topic.current {
+	padding-top: 29px;
+}
+.topic.current h2 {
+	position: fixed;
+	top: 50px;
+}
+
+.section {
+	position: relative;
+}
+.component {
+	margin: 40px;
+	box-shadow: 0 0 20px #777;
+}
+
+.section {
+	border-top: 1px solid #CCC;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	/*-webkit-transition: background-position 0.05s linear;*/
+	/*-moz-transition: background-position 0.05s linear;*/
+}
+.section:first-of-type {
+	border-top: none;
+}
+
+.section h3 {
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 20pt;
+	background-color: #C03;
+	padding: 15px 20px 5px 12px;
+	width: 500px;
+	color: #FFF;
+	text-shadow: -1px -1px 1px #555;
+	display: block;
+	box-shadow: 0 0 20px #777;
+}
+
+.component.left {
+	left: 40px;
+	top: 100px;
+}
+.component.right {
+	right: 40px;
+	top: 100px;
+}
+
+.component.paragraph {
+	width: 400px;
+	background-color: #EEE;
+	padding: 1em;
+	margin-top: 1.5em;
+	color: #000;
+	text-shadow: 1px 1px 1px #FFF;
+	border-left: 3px solid #C03;
+}
+.component.paragraph.wide {
+	width: auto;
+}
+.component.paragraph p {
+	line-height: 1.2em;
+	margin: 0;
+}
+
+.component.photo > div {
+	width: 300px;
+	border: 10px solid white;
+	box-shadow: 0 0 20px #AAA;
+}
+.component.photo img {
+	width: 300px;
+}
+
+.component.blockquote {
+	margin: 40px;
+	padding: 10px;
+	background-color: #EEE;
+}
+.component.blockquote:before {
+	content: '\201C';
+	float: left;
+	font-size: 120px;
+	font-family: "Trebuchet MS";
+	width: 70px;
+	height: 70px;
+	color: #999;
+	margin-top: -10px;
+}
+.component.blockquote p {
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+.component.teamlisting_wrapper {
+	box-shadow: none;
+}
+.component .teamlisting {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: 0;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	box-shadow: 0 0 20px #777;
+}
+.component .teamlisting td {
+	padding: 7px;
+}
+.component .teamlisting td:first-child {
+	text-align: right;
+	border-right: 2px solid #C03;
+	width: 180px;
+}
+.component .teamlisting tr:nth-child(even) td:first-child {
+	background-color: #EEE;
+}
+.component .teamlisting tr:nth-child(odd) td:first-child {
+	background-color: #DDD;
+}
+.component .teamlisting tr:first-child td:last-child {
+	border-top: 1px solid #DDD;
+}
+.component .teamlisting tr td:last-child {
+	border-bottom: 1px solid #DDD;
+}
+.component .teamlisting tr td:last-child {
+	background-color: #EEE;
+}
+
+.component.image {
+	text-align: center;
+	box-shadow: none;
+}
+.component.image span {
+	background-color: #EEE;
+	padding: 10px;
+	display: inline-block;
+	box-shadow: 0 0 20px #777;
+}
+.component.image div.caption {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+.component.panorama span .title {
+	margin-bottom: 0.5em;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+.component.panorama span {
+	width: 770px;
+}
+.component.panorama span .panorama_inner {
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 750px;
+}
+.component.panorama span .panorama_inner img:hover {
+	cursor: move;
+}
+
+.component.citations td {
+	text-align: left !important;
+	padding: 10px 10px 10px 45px;
+	text-indent: -30px;
+}
+.component.citations .teamlisting td:first-child {
+	border-left: 2px solid #C03;
+	border-right: none;
+}
+
+* {
+	/*box-shadow: none !important;*/
+	/*text-shadow: none !important;*/
+	/*background: none !important;*/
+}
+
+.section.hidden {
+	/*visibility: hidden !important;*/
+	/*background: none !important;*/
+}
+
+.section.hidden * {
+	box-shadow: none !important;
+}

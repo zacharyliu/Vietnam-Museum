@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BookBlock: A Content Flip Plugin</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.bookblock.js"></script>
+	</head>
+	<body>
+        <div id="bb-bookblock" class="bb-bookblock">
+            <div class="bb-item">
+                <a href="http://drbl.in/bKVq"><img src="images/demo1/1.jpg" alt="image01"/></a>
+            </div>
+            <div class="bb-item">
+                <a href="http://drbl.in/ciTX"><img src="images/demo1/2.jpg" alt="image02"/></a>
+            </div>
+            <div class="bb-item">
+                <a href="http://drbl.in/cLHx"><img src="images/demo1/3.jpg" alt="image03"/></a>
+            </div>
+            <div class="bb-item">
+                <a href="http://drbl.in/bAfn"><img src="images/demo1/4.jpg" alt="image04"/></a>
+            </div>
+            <div class="bb-item">
+                <a href="http://drbl.in/dcbE"><img src="images/demo1/5.jpg" alt="image05"/></a>
+            </div>
+        </div>
+        <a id="bb-nav-prev" href="#">Previous</a>
+        <a id="bb-nav-next" href="#">Next</a>
+        <a id="bb-nav-jump" href="#" title="Go to last item">Last page</a>
+		<script type="text/javascript">
+			$(function() {
+
+				var Page = (function() {
+
+					var config = {
+							$bookBlock : $( '#bb-bookblock' ),
+							$navNext : $( '#bb-nav-next' ),
+							$navPrev : $( '#bb-nav-prev' ),
+							$navJump : $( '#bb-nav-jump' ),
+							bb : $( '#bb-bookblock' ).bookblock()
+						},
+						init = function() {
+							initEvents();
+						},
+						initEvents = function() {
+
+							var $slides = config.$bookBlock.children(),
+									totalSlides = $slides.length;
+
+							// add navigation events
+							config.$navNext.on( 'click', function() {
+
+								config.bb.next();
+								return false;
+
+							} );
+
+							config.$navPrev.on( 'click', function() {
+								
+								config.bb.prev();
+								return false;
+
+							} );
+
+							config.$navJump.on( 'click', function() {
+								
+								config.bb.jump( totalSlides );
+								return false;
+
+							} );
+						};
+						return { init : init };
+				})();
+
+				Page.init();
+
+			});
+		</script>
+	</body>
+</html>
